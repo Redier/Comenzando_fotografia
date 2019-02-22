@@ -1,0 +1,17 @@
+.imagen{
+  border: 2px solid black;
+  width: 90%;
+  filter: drop-shadow(2px 2px #02010a);
+}
+#img_2, #img_4, #img_6{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img_1{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+#img_3{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
